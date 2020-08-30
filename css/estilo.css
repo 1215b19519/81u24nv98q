@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Special Elite', cursive;
+}
+
+body {
+	background-color: black;
+	user-select: none;
+}
+
+#particles-js {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+#contenedor {
+	width: 700px;
+	height: 400px;
+	top: 130px;
+	left: 160px;
+	position: relative;
+	z-index: 99;
+	opacity: 100;
+	align-items: center;
+	justify-content: center;
+}
+
+#contenedor audio {
+	padding-left: 200px;
+}
